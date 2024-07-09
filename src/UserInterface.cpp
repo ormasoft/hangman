@@ -23,7 +23,7 @@ void UserInterface::describeWordsFile()
 // Method: getPlayersInfo
 // get input from user about each player and fill a Players vector
 //------------------------------------------------------------------------------
-std::vector<Player> UserInterface::getPlayersInfo() { //return refernce !!!
+std::vector<Player> UserInterface::getPlayersInfo() {
 	std::vector<Player> players;
 	int numPlayers = 0;
 	std::string input;
